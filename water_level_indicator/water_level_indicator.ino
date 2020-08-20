@@ -1,3 +1,7 @@
+/* Mahmudul Islam
+ * EEE,Bangladesh University of Engineering and Technology (BUET)
+ * Email: mahmudulislam299@gmail.com
+ */
 
 #define TRIGGER D0
 #define ECHO    D2
@@ -10,12 +14,12 @@
 #include <BlynkSimpleEsp8266.h>
 
 
-char auth[] = " fZZ3GGx7Ak1J2sbi7xEGPMGxo2lrLQ6o";
+char auth[] = " *************************";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "ks.main";
-char pass[] = "";
+char ssid[] = "*******";
+char pass[] = "**********";
 int distanceVals[8] = {5, 10, 15, 20, 25, 30, 35, 300};
 void setup() {
   
